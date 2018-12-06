@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Bold";
+  src: url("../fonts/AirbnbCereal-Bold.ttf"); }
+@font-face {
+  font-family: "Medium";
+  src: url("../fonts/AirbnbCereal-Medium.ttf"); }
+@font-face {
+  font-family: "Book";
+  src: url("../fonts/AirbnbCereal-Book.ttf"); }
+* {
+  font-family: 'Book'; }
+
+html body {
+  margin: 0px;
+  font-size: 100%; }
+  html body .logo {
+    max-width: 200px;
+    margin-top: 24px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out; }
+    html body .logo:hover {
+      opacity: .9; }
+  html body .container {
+    width: 86rem; }
+  html body .btn {
+    color: #fff;
+    background: #147eff;
+    padding: 12px 48px;
+    border-radius: 6px;
+    border: 1px solid #147eff;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    cursor: pointer; }
+    html body .btn.btn--outline {
+      background: transparent;
+      color: #147eff;
+      border: 1px solid #147eff; }
+      html body .btn.btn--outline:hover {
+        color: #fff;
+        background: #147eff; }
+    html body .btn:hover {
+      background: transparent;
+      color: #147eff;
+      border: 1px solid #147eff; }
+  html body h1 {
+    font-size: 72px;
+    font-family: 'Bold'; }
+  html body h2 {
+    font-size: 48px;
+    font-family: 'Bold'; }
+  html body h4 {
+    font-size: 26px;
+    font-family: 'Bold'; }
+  html body h5 {
+    font-family: 'Book';
+    font-size: 24px;
+    line-height: 1.4; }
+  html body ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+    html body ul li {
+      font-size: 20px;
+      line-height: 32px;
+      font-family: 'Medium'; }
+  html body p {
+    font-size: 20px; }
+  html body .text--white {
+    color: #fff; }
+  html body .text--light {
+    font-family: 'Book'; }
+  html body .text--bold {
+    font-family: 'Bold'; }
+  html body .text--primary {
+    color: #147eff; }
+  html body .text--medium {
+    font-family: 'Medium'; }
+  html body .bg--primary {
+    background: #147eff; }
+  html body .bg--charcoal {
+    background: #2a2a2a; }
+  html body .padding {
+    padding: 3vw 0px; }
+  html body .callout-box {
+    margin: 24px auto; }
+    html body .callout-box h2 {
+      margin: 0px; }
+    html body .callout-box p {
+      margin: 0px; }

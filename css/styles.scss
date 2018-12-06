@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Bold";
+  src: url("../fonts/AirbnbCereal-Bold.ttf");
+}
+@font-face {
+  font-family: "Medium";
+  src: url("../fonts/AirbnbCereal-Medium.ttf");
+}
+@font-face {
+  font-family: "Book";
+  src: url("../fonts/AirbnbCereal-Book.ttf");
+}
+
+* {
+  font-family: 'Book';
+}
+
+$primary: #147EFF;
+
+html {
+	body {
+		margin: 0px;
+		font-size: 100%;
+		.logo {
+			max-width: 200px;
+			margin-top: 24px;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			&:hover {
+				opacity: .9;
+			}
+		}
+		.container {
+			width: 86rem;
+		}
+		.btn {
+			color: #fff;
+			background: $primary;
+			padding: 12px 48px;
+			border-radius: 6px;
+			border: 1px solid $primary;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			cursor: pointer;
+			&.btn--outline {
+				background: transparent;
+				color: $primary;
+				border: 1px solid $primary;
+				&:hover {
+					color: #fff;
+					background: $primary;
+				}
+			}
+			&:hover {
+				background: transparent;
+				color: $primary;
+				border: 1px solid $primary;
+			}
+		}
+		h1 {
+			font-size: 72px;
+			font-family: 'Bold';
+		}
+		h2 {
+			font-size: 48px;
+			font-family: 'Bold';
+		}
+		h4 {
+			font-size: 26px;
+			font-family: 'Bold';
+		}
+		h5 {
+			font-family: 'Book';
+			font-size: 24px;
+			line-height: 1.4;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			li {
+				font-size: 20px;
+				line-height: 32px;
+				font-family: 'Medium';
+			}
+		}
+		p {
+			font-size: 20px;
+		}
+		.text--white {
+			color: #fff;
+		}
+		.text--light {
+			font-family: 'Book';
+		}
+		.text--bold {
+			font-family: 'Bold';
+		}
+		.text--primary {
+			color: $primary;
+		}
+		.text--medium {
+			font-family: 'Medium';
+		}
+		.bg--primary {
+			background: $primary;
+		}
+		.bg--charcoal {
+			background: #2a2a2a;
+		}
+		.padding {
+			padding: 3vw 0px;
+		}
+		.callout-box {
+			margin: 24px auto;
+			h2 {
+				margin: 0px;
+			}
+			p {
+				margin: 0px;
+			}
+		}
+	}
+}
